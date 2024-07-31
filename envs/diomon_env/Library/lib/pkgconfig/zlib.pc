@@ -1,0 +1,13 @@
+prefix=D:/vscode_repo/diamond_project/envs/diomon_env/Library
+exec_prefix=D:/vscode_repo/diamond_project/envs/diomon_env/Library
+libdir=D:/vscode_repo/diamond_project/envs/diomon_env/Library/lib
+sharedlibdir=D:/vscode_repo/diamond_project/envs/diomon_env/Library/lib
+includedir=D:/vscode_repo/diamond_project/envs/diomon_env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
